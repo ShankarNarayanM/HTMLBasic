@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" cellpadding="10" cellspacing="10">
+        <caption>Basic Projects</caption>
+        <tr>
+            <th>Topic</th>
+            <th>Link</th>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td><p><a href="./HTMLBasic"></a></p></td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td><p><a href="./CSSBasic"></a></p></td>
+        </tr>
+    </table>
+</body>
+</html>
