@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Learning Page</title>
+</head>
+<body>
+
+    <!-- 1. Physical Tags -->
+    <h1>Physical Tags</h1>
+    <p><b>Bold</b> text example.</p>
+    <p><i>Italic</i> text example.</p>
+    <p><u>Underlined</u> text example.</p>
+    <p><strike>Strikethrough</strike> text example.</p>
+    <p><tt>Monospaced</tt> text example.</p>
+
+    <!-- 2. Logical Tags with attributes -->
+    <h1>Logical Tags</h1>
+    <p><abbr title="World Health Organization">WHO</abbr> is a global health organization.</p>
+    <p><cite>Harry potter</cite> is a novel by J.k Rowling</p>
+    <p><code>System.out.println("Hello World");</code> is a Java print statement.</p>
+    <p><dfn title="HyperText Markup Language">HTML</dfn> is used to create webpages.</p>
+    <p><kbd>Ctrl + C</kbd> to copy text.</p>
+    <p><samp>Hello User</samp> is sample output.</p>
+    <p><var>x</var> is a variable.</p>
+
+    <!-- 3. Void Tags -->
+    <h1>Void Tags</h1>
+    <hr>
+    <br>
+    <img src="./Image1.webp" alt="Sample Image" width="100" height="100">
+    <input type="text" placeholder="Type here">
+
+    <!-- 4. Table Tags with attributes -->
+    <h1>Table Example</h1>
+    <table border="1" cellpadding="5" cellspacing="2">
+        <caption>Student Info</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ramesh</td>
+                <td>20</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Suresh</td>
+                <td>22</td>
+                <td>B</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- 5. List Tags with attributes -->
+    <h1>List Examples</h1>
+    <h2>Ordered List</h2>
+    <ol type="A" start="3">
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cherry</li>
+    </ol>
+
+    <h2>Unordered List</h2>
+    <ul type="circle">
+        <li>Red</li>
+        <li>Green</li>
+        <li>Blue</li>
+    </ul>
+
+    <h2>Definition List</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+    </dl>
+
+    <!-- 6. Links -->
+    <h1>Links</h1>
+    <p><a href="https://www.google.com" target="_blank">Visit Google</a></p>
+    <p><a href="mailto:someone@example.com">Send Email</a></p>
+    <p><a href="https://chatgpt.com"><img src="./Image1.webp" alt="Logo" width="50"></a></p>
+
+    <!-- 7. Form Tags with attributes -->
+    <h1>Form Example</h1>
+    <form action="submit.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+    <!-- 8. Non-Semantic Tags -->
+    <h1>Non-Semantic Tags</h1>
+    <div>This is a div tag used for grouping content.</div>
+    <span>This is a span tag used for inline grouping.</span>
+
+    <!-- 9. Semantic Tags -->
+    <h1>Semantic Tags</h1>
+    <header>
+        <h2>Website Header</h2>
+    </header>
+    <nav>
+        <a href="#">Home</a> | <a href="#">About</a> | <a href="#">Contact</a>
+    </nav>
+    <main>
+        <article>
+            <h3>Article Title</h3>
+            <p>This is the content of the article.</p>
+        </article>
+        <section>
+            <h3>Section Title</h3>
+            <p>This is a section of the main content.</p>
+        </section>
+        <aside>
+            <p>This is some additional info or a sidebar.</p>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2025 All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
