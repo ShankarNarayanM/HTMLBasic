@@ -6,20 +6,19 @@
 <body>
 
     <!-- 1. Physical Tags -->
-    <h1>Physical Tags</h1>
+    <h1 id="bookmark">Physical Tags</h1>
     <p><b>Bold</b> text example.</p>
     <p><i>Italic</i> text example.</p>
     <p><u>Underlined</u> text example.</p>
     <p><strike>Strikethrough</strike> text example.</p>
-    <p><tt>Monospaced</tt> text example.</p>
+    <p><big>Big</big> text example</p>
+    <p><small>Small</small> text example</p>
 
     <!-- 2. Logical Tags with attributes -->
     <h1>Logical Tags</h1>
     <p><abbr title="World Health Organization">WHO</abbr> is a global health organization.</p>
     <p><cite>Harry potter</cite> is a novel by J.k Rowling</p>
     <p><code>System.out.println("Hello World");</code> is a Java print statement.</p>
-    <p><dfn title="HyperText Markup Language">HTML</dfn> is used to create webpages.</p>
-    <p><kbd>Ctrl + C</kbd> to copy text.</p>
     <p><samp>Hello User</samp> is sample output.</p>
     <p><var>x</var> is a variable.</p>
 
@@ -81,13 +80,14 @@
 
     <!-- 6. Links -->
     <h1>Links</h1>
+    <p><a href="#bookmark" target="_self">Physical Tags</a></p>
     <p><a href="https://www.google.com" target="_blank">Visit Google</a></p>
     <p><a href="mailto:someone@example.com">Send Email</a></p>
     <p><a href="https://chatgpt.com"><img src="./Image1.webp" alt="Logo" width="50"></a></p>
 
     <!-- 7. Form Tags with attributes -->
     <h1>Form Example</h1>
-    <form action="submit.php" method="post">
+    <form action="https://google.com" method="post">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name"><br><br>
 
